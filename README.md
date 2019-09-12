@@ -11,8 +11,8 @@ Notebook-like interface where you can issue the simplest commands to gather info
 The system knows where to gather the information (data sources), how to collect it and store it, comes with primitives to manipulate this information and can display it in an interactive fashion.
 
 ## Process
-![foo](process1.png)
-![foo](process2.png)
+![foo](images/process1.png)
+![foo](images/process2.png)
 
 
 ## Steps
@@ -39,7 +39,7 @@ A default trust index for the system’s sources should be provided (ex : source
 Relevance and Magnitude
 Not all data points has the same relevance.
 For example, Wikipedia currently curates lists of varying sizes of [Vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles) (10, 100, 1k, 10k, 50k)
-![Wikipedia Vital Articles](vital_articles.png)
+![Wikipedia Vital Articles](images/vital_articles.png)
 
 In the same way, not all information about a data point have the same relevance.
 
@@ -69,4 +69,4 @@ Someone hitting lightly another car with his own would be a small event, remembe
 The magnitude could be inferred from other metrics (popularity on IMDB for movies, on Spotify or Youtube for music, …)
 Magnitude is independent from a given user, but could be used as a base for scoring relevance for a given user
 
-![](data_handling.png)
+![](images/data_handling.png)
