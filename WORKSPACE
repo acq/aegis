@@ -16,9 +16,12 @@ maven_install(
     artifacts = [
         "junit:junit:4.12",
         "com.google.guava:guava:28.0-jre",
-        "com.squareup.okhttp3:okhttp:4.2.0",
-        "com.squareup.okio:okio:2.4.0",
-        "com.squareup.retrofit2:retrofit:2.6.1"
+        "com.squareup.okhttp3:okhttp:4.2.1",
+        "com.squareup.okio:okio:2.4.3",
+        "com.squareup.retrofit2:retrofit:2.7.0",
+        "com.fasterxml.jackson.core:jackson-core:2.10.0",
+        "com.fasterxml.jackson.core:jackson-annotations:2.10.0",
+        "com.fasterxml.jackson.core:jackson-databind:2.10.0",
     ],
     repositories = [
         "http://uk.maven.org/maven2",
